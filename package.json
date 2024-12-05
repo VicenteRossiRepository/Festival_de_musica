@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/VicenteRossiRepository/Festival_de_musica/issues"
   },
-  "homepage": "https://github.com/VicenteRossiRepository/Festival_de_musica#readme"
+  "homepage": "https://github.com/VicenteRossiRepository/Festival_de_musica#readme",
+  "devDependencies": {
+    "sass": "^1.82.0"
+  }
 }
