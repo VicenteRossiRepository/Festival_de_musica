@@ -11,7 +11,7 @@
         position: absolute;
         background: linear-gradient(270deg,
                 rgba(v.$morado, 60%),
-                rgba( darken(v.$morado, 20%), 90%));
+                rgba(darken(v.$morado, 20%), 90%));
         inset: 0;
 
         display: flex;
@@ -21,6 +21,7 @@
     video {
         display: block;
         width: auto;
+
         @include m.desktop {
             width: 100%;
         }
@@ -29,6 +30,7 @@
 
 .contenido-video {
     z-index: 10;
+
     h2 {
         color: v.$blanco;
         font-size: 7rem;
