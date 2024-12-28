@@ -36,6 +36,14 @@ function mostrarImagen(i) {
     modal.onclick = cerrarModal;
     modal.appendChild(imagen);
 
+    // Boton cerar modal
+    const btnCerrarModal = document.createElement('BUTTON');
+    btnCerrarModal.textContent = 'X';
+    btnCerrarModal.classList.add('btn-cerrar');
+    btnCerrarModal.onclick = cerrarModal;
+
+    modal.appendChild(btnCerrarModal);
+
     //Agreagr al HTML
     const body = document.querySelector('body');
     body.classList.add('overflow-hidden');
